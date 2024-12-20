@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">ERON</a>
+        <nav>
+            <div class="togglebtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>   
+            <ul class="navlinks">
+                <li><a href="#home" class= "active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="123.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>AARON</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Hi, I'm Aaron Manganti Cantaneda, a 20 year old third year IT student at Bohol Island State University. I am an aspiring software developer passionate about technology, programming, and creating innovative solutions. Skilled in programming, web development, and databases, I thrive in solving problems and collaborating with teams. My goal is to develop user friendly applications that make a positive impact. Let's connect and build something great together!</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/aaron660406?mibextid=ZbWKwL" target="_blank" class="social-link facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://youtube.com/@roninvx2918?si=lPo1Wi3wYePIgpJn" target="_blank" class="social-link youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/parizz_shawqs/profilecard/?igsh=dWFqcml3Ymtla3Z0" target="_blank" class="social-link instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <a href="#Send" class="btn">Contact me</a>
+        </div>
+    </section>
+    
+    <section class="aboutme" id="about">
+        <div class="about-box">
+            <h2 class="heading">About <span> Me</span></h2>
+            <div class="wrapper">
+                <div class="about-item">
+                    <img src="me.jpg" alt="">
+                    <h2>Aaron Castaneda</h2>
+                    <div class="rating">
+
+                    </div>
+                        <p>
+                            Hi, I'm Aaron Manganti Castaneda, a 20 year old third year student pursuing a Bachelor of Science in Information Technology at Bohol Island State University. I'm an aspiring software developer with a passion for technology and problem-solving. <br></br>
+                            
+                            I come from a supportive family in Purok #1, Hanopol Norte, Balilihan, Bohol. My eldest brother, Arnel, is a licensed engineer, and my second brother, Andrew, is an electrician. Their dedication inspires me to work hard toward my goals. <br><br>
+    
+                            In my free time, I enjoy playing games, dancing, editing, and drawing. These hobbies let me express my creativity and enhance my skills. I'm excited to continue learning and hope to make a meaningful impact as a software developer in the future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <h2 class="heading">Project</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">Android Application</div>
+                    <div class="timeline-content">
+                        <img src="project1.jpg" alt="Project 1">
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">Logical Circuit</div>
+                    <div class="timeline-content">
+                        <img src="project2.png" alt="Project 1">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">Software Engineering</div>
+                        <div class="timeline-content">
+                            <img src="soft eng.jpg" alt="Project 1">
+                        </div>
+                    </div>
+        </div>
+        
+    </section>
+    
+        <div class="modal" id="imageModal">
+            <span class="close-modal">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div class="modal-caption" id="caption"></div>
+        </div>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text"
+                    placeholder="Full Name">
+                    <input type="email"
+                    placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text"
+                    placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn" id="Send">
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <ul class="list">
+            <li>
+                <a href="#home" id="home">Home</a>
+            </li>
+            <li>
+                <a href="#about" id="about">About Me</a>
+            </li>
+            <li>
+                <a href="#project" id="project">Project</a>
+            </li>
+            <li>
+                <a href="#home" id="contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            © Aaron Castaneda | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
